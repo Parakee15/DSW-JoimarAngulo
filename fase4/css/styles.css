@@ -1,0 +1,34 @@
+body {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.sidebar {
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+li > a:hover > span {
+  color: #f1f1f1;
+}
+
+li > a > span {
+  color: #818181;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.background-gray {
+  background-color: #ebefef;
+}
+
+.background-bluebird {
+  background-color: #c6def5;
+}
+
+.height-700 {
+  height: 700px;
+}
+
+aside {
+  height: 100% !important;
+}

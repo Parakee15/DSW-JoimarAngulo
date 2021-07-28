@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark sidebar">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <h2 class="pt-2">Diseño Web</h2>
+                    <hr>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                        id="menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link align-middle px-0">
+                                <span class="ms-1 d-none d-sm-inline">Inicio</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#temas" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <span class="ms-1 d-none d-sm-inline">Temas</span>
+                            </a>
+                            <ul class="collapse nav flex-column ms-3" id="temas" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="tema_1.html" class="nav-link px-0">
+                                        <span class="d-none d-sm-inline">Tema 1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tema_2.html" class="nav-link px-0">
+                                        <span class="d-none d-sm-inline">Tema 2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#recursos_digitales" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <span class="ms-1 d-none d-sm-inline">Recursos Digitales</span>
+                            </a>
+                            <ul class="collapse nav flex-column ms-3" id="recursos_digitales" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="recurso_1.html" class="nav-link px-0">
+                                        <span class="d-none d-sm-inline">Recurso 1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="recurso_2.html" class="nav-link px-0">
+                                        <span class="d-none d-sm-inline">Recurso 2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#aprendizaje" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <span class="ms-1 d-none d-sm-inline">Aprendizaje</span>
+                            </a>
+                            <ul class="collapse nav flex-column ms-3" id="aprendizaje" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="aprendizaje_1.html" class="nav-link px-0">
+                                        <span class="d-none d-sm-inline">Actividad 1</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="aprendizaje_2.html" class="nav-link px-0">
+                                        <span class="d-none d-sm-inline">Actividad 2</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="autor.html" class="nav-link align-middle px-0">
+                                <span class="ms-1 d-none d-sm-inline">Autor</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col p-3">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="fw-bold">Recursos </h2>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-8 pe-0 ">
+                        <div class="card h-100">
+                            <div class="card-header ">
+                                <h4 class="fw-bold">Recurso 1</h4>
+                            </div>
+                            <div class="card-body background-gray">
+                                <section>
+                                    <h2>Flexbox - ¿Qué es y para qué sirve?</h2>
+                                    <audio controls>
+                                        <source src="./audio/Flexbox - ¿Qué es y para qué sirve.mp3" type="audio/mp3">
+                                    </audio>
+                                    <div class="row">
+                                        <img src="./img/flexbox-css.png" class="rounded" alt="">
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 ps-0">
+                        <div class="card h-100">
+                            <div class="card-body background-bluebird ">
+                                <aside>
+                                    <iframe
+                                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                        style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                        allowfullscreen="true"
+                                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                                        class="w-100 h-100 d-inline-block">
+                                    </iframe>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
